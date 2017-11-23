@@ -1,1 +1,1 @@
-React Boiler Plate
+Project to compare warehouse inventory between SAP and Itile WMS system, through Web API 
