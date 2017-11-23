@@ -23,9 +23,24 @@ module.exports = {
         root: __dirname,
         alias: {
             Main: 'public/components/Main.jsx',
+            Home: 'public/components/Home.jsx',
             Nav: 'public/components/Nav.jsx',
             MasterData: 'public/components/MasterData.jsx',
-            ApplicationStyles: 'public/styles/app.scss'
+            Users: 'public/components/Users.jsx',
+            Login: 'public/components/Login.jsx',
+            API: 'public/api/API.jsx',
+            ApplicationStyles: 'public/styles/app.scss',
+            User: 'public/components/User.jsx',
+            Attributes: 'public/components/Attributes.jsx',
+            Attribute: 'public/components/Attribute.jsx',
+            ReconcileGroups: 'public/components/ReconcileGroups.jsx',
+            ReconcileGroup: 'public/components/ReconcileGroup.jsx',
+            Statuses: 'public/components/Statuses.jsx',
+            Status: 'public/components/Status.jsx',
+            StandardPrices: 'public/components/StandardPrices.jsx',
+            StandardPrice: 'public/components/StandardPrice.jsx',
+            ChangePassword:  'public/components/ChangePassword.jsx',
+            toast: 'react-toastify/dist/ReactToastify.min.css'
         },
         extension: ['','.js','.jsx']
     },
